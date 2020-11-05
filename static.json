@@ -2,7 +2,7 @@
   "routes":{
     "/login/": "index.html",
     "/sample/": "index2.html"
-  }
+  },
   "headers":{
     "/*":{
       "Content-Type": "text/plain; charset=UTF-8",
