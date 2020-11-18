@@ -1,0 +1,13 @@
+<script>
+    let Click = (async () => {
+        let input = document.getElementById("inp");
+        let response = await fetch(input.value);
+        let text = "";
+        text = await response.text();
+        input.value = text;
+    });
+</script>
+<form>
+    <input type="text" id="inp">
+    <input type="button" id="bt" value="OK" onclick="Click();">
+</form>
