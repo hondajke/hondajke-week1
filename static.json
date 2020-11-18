@@ -1,7 +1,8 @@
 {
   "routes": {
     "/login/*": "index.html",
-     "/sample/*": "index2.html"
+    "/sample/*": "index2.html",
+    "/promise/*": "index3.html"
   },
   "headers": {
     "/login/*": {
